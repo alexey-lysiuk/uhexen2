@@ -268,7 +268,7 @@
 		70158B920AAF3B3600F6437C /* render.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = render.h; sourceTree = "<group>"; };
 		70158B930AAF3B3600F6437C /* screen.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = screen.c; sourceTree = "<group>"; };
 		70158B940AAF3B3600F6437C /* screen.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = screen.h; sourceTree = "<group>"; };
-		70158C530AAF3C8800F6437C /* Hexen_II.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hexen_II.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70158C530AAF3C8800F6437C /* Hexen II.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hexen II.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70158F0A0AAF427F00F6437C /* vid_sdl.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = vid_sdl.c; sourceTree = "<group>"; };
 		70310B240BFDE84D00CA35D3 /* msg_io.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = msg_io.c; sourceTree = "<group>"; };
 		70310B250BFDE84D00CA35D3 /* msg_io.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = msg_io.h; sourceTree = "<group>"; };
@@ -388,7 +388,7 @@
 		707D57E30AA9F6EE00313A9F /* world.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = world.h; sourceTree = "<group>"; };
 		707D57E40AA9F6EE00313A9F /* zone.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = zone.c; sourceTree = "<group>"; };
 		707D57E50AA9F6EE00313A9F /* zone.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = zone.h; sourceTree = "<group>"; };
-		707D58EA0AA9FBB700313A9F /* Hexen_II-gl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hexen_II-gl.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		707D58EA0AA9FBB700313A9F /* GLHexen II.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GLHexen II.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		707D59030AAA019300313A9F /* SDLMain.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SDLMain.h; sourceTree = "<group>"; };
 		707D59040AAA019300313A9F /* SDLMain.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SDLMain.m; sourceTree = "<group>"; };
 		707D59240AAA076A00313A9F /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = /System/Library/Frameworks/ApplicationServices.framework; sourceTree = "<absolute>"; };
@@ -486,8 +486,8 @@
 		707D57720AA9F4ED00313A9F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				707D58EA0AA9FBB700313A9F /* Hexen_II-gl.app */,
-				70158C530AAF3C8800F6437C /* Hexen_II.app */,
+				707D58EA0AA9FBB700313A9F /* GLHexen II.app */,
+				70158C530AAF3C8800F6437C /* Hexen II.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -741,9 +741,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		70158BF20AAF3C8800F6437C /* Hexen_II */ = {
+		70158BF20AAF3C8800F6437C /* Hexen II */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 70158C4F0AAF3C8800F6437C /* Build configuration list for PBXNativeTarget "Hexen_II" */;
+			buildConfigurationList = 70158C4F0AAF3C8800F6437C /* Build configuration list for PBXNativeTarget "Hexen II" */;
 			buildPhases = (
 				70158BFC0AAF3C8800F6437C /* Resources */,
 				70158BFD0AAF3C8800F6437C /* Sources */,
@@ -753,15 +753,15 @@
 			);
 			dependencies = (
 			);
-			name = Hexen_II;
+			name = "Hexen II";
 			productInstallPath = "$(USER_APPS_DIR)";
 			productName = Hexen_II;
-			productReference = 70158C530AAF3C8800F6437C /* Hexen_II.app */;
+			productReference = 70158C530AAF3C8800F6437C /* Hexen II.app */;
 			productType = "com.apple.product-type.application";
 		};
-		707D58710AA9FBB700313A9F /* Hexen_II-gl */ = {
+		707D58710AA9FBB700313A9F /* GLHexen II */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 707D58E60AA9FBB700313A9F /* Build configuration list for PBXNativeTarget "Hexen_II-gl" */;
+			buildConfigurationList = 707D58E60AA9FBB700313A9F /* Build configuration list for PBXNativeTarget "GLHexen II" */;
 			buildPhases = (
 				707D58A40AA9FBB700313A9F /* Resources */,
 				707D58A50AA9FBB700313A9F /* Sources */,
@@ -772,10 +772,10 @@
 			comments = "http://uhexen2.sf.net\n";
 			dependencies = (
 			);
-			name = "Hexen_II-gl";
+			name = "GLHexen II";
 			productInstallPath = "$(USER_APPS_DIR)";
 			productName = "Hexen_II-gl";
-			productReference = 707D58EA0AA9FBB700313A9F /* Hexen_II-gl.app */;
+			productReference = 707D58EA0AA9FBB700313A9F /* GLHexen II.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -798,8 +798,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				707D58710AA9FBB700313A9F /* Hexen_II-gl */,
-				70158BF20AAF3C8800F6437C /* Hexen_II */,
+				707D58710AA9FBB700313A9F /* GLHexen II */,
+				70158BF20AAF3C8800F6437C /* Hexen II */,
 			);
 		};
 /* End PBXProject section */
@@ -1027,8 +1027,7 @@
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				INFOPLIST_FILE = hexen2.plist;
-				PRODUCT_NAME = Hexen_II;
-				WRAPPER_EXTENSION = app;
+				PRODUCT_NAME = "Hexen II";
 			};
 			name = Debug;
 		};
@@ -1038,8 +1037,7 @@
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_OPTIMIZATION_LEVEL = 2;
 				INFOPLIST_FILE = hexen2.plist;
-				PRODUCT_NAME = Hexen_II;
-				WRAPPER_EXTENSION = app;
+				PRODUCT_NAME = "Hexen II";
 			};
 			name = Release;
 		};
@@ -1105,8 +1103,7 @@
 					GL_DLSYM,
 				);
 				INFOPLIST_FILE = glhexen2.plist;
-				PRODUCT_NAME = "Hexen_II-gl";
-				WRAPPER_EXTENSION = app;
+				PRODUCT_NAME = "GLHexen II";
 			};
 			name = Debug;
 		};
@@ -1121,15 +1118,14 @@
 					GL_DLSYM,
 				);
 				INFOPLIST_FILE = glhexen2.plist;
-				PRODUCT_NAME = "Hexen_II-gl";
-				WRAPPER_EXTENSION = app;
+				PRODUCT_NAME = "GLHexen II";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		70158C4F0AAF3C8800F6437C /* Build configuration list for PBXNativeTarget "Hexen_II" */ = {
+		70158C4F0AAF3C8800F6437C /* Build configuration list for PBXNativeTarget "Hexen II" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				70158C500AAF3C8800F6437C /* Debug */,
@@ -1147,7 +1143,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		707D58E60AA9FBB700313A9F /* Build configuration list for PBXNativeTarget "Hexen_II-gl" */ = {
+		707D58E60AA9FBB700313A9F /* Build configuration list for PBXNativeTarget "GLHexen II" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				707D58E70AA9FBB700313A9F /* Debug */,
