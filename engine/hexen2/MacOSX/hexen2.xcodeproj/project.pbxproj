@@ -206,6 +206,9 @@
 		8A13889F1E058241008FCA18 /* libopus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A13889D1E05822B008FCA18 /* libopus.a */; };
 		8A1388A91E05844E008FCA18 /* libopusfile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A1388A51E058439008FCA18 /* libopusfile.a */; };
 		8A1388AA1E058457008FCA18 /* libopusfile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A1388A51E058439008FCA18 /* libopusfile.a */; };
+		8AD90AA81E05918D0001514E /* h2patch3.c in Sources */ = {isa = PBXBuildFile; fileRef = 8AD90AA51E05916D0001514E /* h2patch3.c */; };
+		8AD90AB21E0592420001514E /* xdelta3.c in Sources */ = {isa = PBXBuildFile; fileRef = 8AD90AB01E0592220001514E /* xdelta3.c */; };
+		8AD90AB31E0592790001514E /* qsnprint.c in Sources */ = {isa = PBXBuildFile; fileRef = B0E74B1D144E7FF40043F808 /* qsnprint.c */; };
 		B0E546A615564FC10033037D /* sys_osx.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E546A515564FC10033037D /* sys_osx.m */; };
 		B0E546A715564FC10033037D /* sys_osx.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E546A515564FC10033037D /* sys_osx.m */; };
 		B0E74B1E144E7FF40043F808 /* qsnprint.c in Sources */ = {isa = PBXBuildFile; fileRef = B0E74B1D144E7FF40043F808 /* qsnprint.c */; };
@@ -411,6 +414,16 @@
 		8A13888C1E057E57008FCA18 /* libmikmod.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmikmod.a; sourceTree = "<group>"; };
 		8A13889D1E05822B008FCA18 /* libopus.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopus.a; sourceTree = "<group>"; };
 		8A1388A51E058439008FCA18 /* libopusfile.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopusfile.a; sourceTree = "<group>"; };
+		8AD90A9E1E0591350001514E /* h2patch */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = h2patch; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AD90AA51E05916D0001514E /* h2patch3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = h2patch3.c; sourceTree = "<group>"; };
+		8AD90AAA1E0592220001514E /* xdelta3-blkcache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "xdelta3-blkcache.h"; sourceTree = "<group>"; };
+		8AD90AAB1E0592220001514E /* xdelta3-decode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "xdelta3-decode.h"; sourceTree = "<group>"; };
+		8AD90AAC1E0592220001514E /* xdelta3-list.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "xdelta3-list.h"; sourceTree = "<group>"; };
+		8AD90AAD1E0592220001514E /* xdelta3-main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "xdelta3-main.h"; sourceTree = "<group>"; };
+		8AD90AAE1E0592220001514E /* xdelta3-mainopt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "xdelta3-mainopt.h"; sourceTree = "<group>"; };
+		8AD90AAF1E0592220001514E /* xdelta3-sizedefs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "xdelta3-sizedefs.h"; sourceTree = "<group>"; };
+		8AD90AB01E0592220001514E /* xdelta3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = xdelta3.c; sourceTree = "<group>"; };
+		8AD90AB11E0592220001514E /* xdelta3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xdelta3.h; sourceTree = "<group>"; };
 		B0E546A515564FC10033037D /* sys_osx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sys_osx.m; sourceTree = "<group>"; };
 		B0E74B1D144E7FF40043F808 /* qsnprint.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = qsnprint.c; path = ../../../common/qsnprint.c; sourceTree = SOURCE_ROOT; };
 		B0E74B22144E80170043F808 /* strlcat.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = strlcat.c; path = ../../../common/strlcat.c; sourceTree = SOURCE_ROOT; };
@@ -470,6 +483,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8AD90A9B1E0591350001514E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -488,6 +508,7 @@
 			children = (
 				707D58EA0AA9FBB700313A9F /* GLHexen II.app */,
 				70158C530AAF3C8800F6437C /* Hexen II.app */,
+				8AD90A9E1E0591350001514E /* h2patch */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -497,6 +518,7 @@
 			children = (
 				8A1386C81E056D6E008FCA18 /* common */,
 				8A1386C71E056D36008FCA18 /* engine */,
+				8AD90AA71E0591740001514E /* h2patch */,
 			);
 			name = Sources;
 			sourceTree = "<group>";
@@ -738,6 +760,32 @@
 			name = common;
 			sourceTree = "<group>";
 		};
+		8AD90AA71E0591740001514E /* h2patch */ = {
+			isa = PBXGroup;
+			children = (
+				8AD90AA91E0591D90001514E /* xdelta */,
+				8AD90AA51E05916D0001514E /* h2patch3.c */,
+			);
+			name = h2patch;
+			path = ../../../h2patch;
+			sourceTree = "<group>";
+		};
+		8AD90AA91E0591D90001514E /* xdelta */ = {
+			isa = PBXGroup;
+			children = (
+				8AD90AAA1E0592220001514E /* xdelta3-blkcache.h */,
+				8AD90AAB1E0592220001514E /* xdelta3-decode.h */,
+				8AD90AAC1E0592220001514E /* xdelta3-list.h */,
+				8AD90AAD1E0592220001514E /* xdelta3-main.h */,
+				8AD90AAE1E0592220001514E /* xdelta3-mainopt.h */,
+				8AD90AAF1E0592220001514E /* xdelta3-sizedefs.h */,
+				8AD90AB01E0592220001514E /* xdelta3.c */,
+				8AD90AB11E0592220001514E /* xdelta3.h */,
+			);
+			name = xdelta;
+			path = ../libs/xdelta3;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -778,12 +826,34 @@
 			productReference = 707D58EA0AA9FBB700313A9F /* GLHexen II.app */;
 			productType = "com.apple.product-type.application";
 		};
+		8AD90A9D1E0591350001514E /* h2patch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AD90AA21E0591350001514E /* Build configuration list for PBXNativeTarget "h2patch" */;
+			buildPhases = (
+				8AD90A9A1E0591350001514E /* Sources */,
+				8AD90A9B1E0591350001514E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = h2patch;
+			productName = h2patch;
+			productReference = 8AD90A9E1E0591350001514E /* h2patch */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		707D575A0AA9F4B100313A9F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				TargetAttributes = {
+					8AD90A9D1E0591350001514E = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = 707D575B0AA9F4B100313A9F /* Build configuration list for PBXProject "hexen2" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -802,6 +872,7 @@
 			targets = (
 				707D58710AA9FBB700313A9F /* GLHexen II */,
 				70158BF20AAF3C8800F6437C /* Hexen II */,
+				8AD90A9D1E0591350001514E /* h2patch */,
 			);
 		};
 /* End PBXProject section */
@@ -1020,6 +1091,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8AD90A9A1E0591350001514E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AD90AB21E0592420001514E /* xdelta3.c in Sources */,
+				8AD90AB31E0592790001514E /* qsnprint.c in Sources */,
+				8AD90AA81E05918D0001514E /* h2patch3.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
@@ -1126,6 +1207,24 @@
 			};
 			name = Release;
 		};
+		8AD90AA31E0591350001514E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8AD90AA41E0591350001514E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1155,6 +1254,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		8AD90AA21E0591350001514E /* Build configuration list for PBXNativeTarget "h2patch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AD90AA31E0591350001514E /* Debug */,
+				8AD90AA41E0591350001514E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
