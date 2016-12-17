@@ -783,6 +783,8 @@
 /* Begin PBXProject section */
 		707D575A0AA9F4B100313A9F /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = 707D575B0AA9F4B100313A9F /* Build configuration list for PBXProject "hexen2" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -1063,6 +1065,7 @@
 					../../../oslibs/macosx/include,
 				);
 				LIBRARY_SEARCH_PATHS = ../../../oslibs/macosx/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				ONLY_ACTIVE_ARCH = YES;
 			};
 			name = Debug;
@@ -1089,6 +1092,7 @@
 					../../../oslibs/macosx/include,
 				);
 				LIBRARY_SEARCH_PATHS = ../../../oslibs/macosx/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
 			};
 			name = Release;
 		};
