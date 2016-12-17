@@ -17,29 +17,21 @@
 		483A78780D2EEAF000CB2E4C /* snd_mikmod.c in Sources */ = {isa = PBXBuildFile; fileRef = 483A78640D2EEAF000CB2E4C /* snd_mikmod.c */; };
 		483B16A5154472FE00BBDAD1 /* cl_inlude.c in Sources */ = {isa = PBXBuildFile; fileRef = 483B16A4154472FE00BBDAD1 /* cl_inlude.c */; };
 		4854B1AF1340C5FD004C9F45 /* libmad.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 48E2EC7915FB507A00B8D476 /* libmad.dylib */; };
-		4854B1E81340C964004C9F45 /* libvorbis.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 48E2EC7B15FB507A00B8D476 /* libvorbis.dylib */; };
-		4854B1E91340C964004C9F45 /* libvorbisfile.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 48E2EC7C15FB507A00B8D476 /* libvorbisfile.dylib */; };
 		4891E1CC179728BF00BED9F7 /* libopus.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 48AE54C717972447008E11FB /* libopus.dylib */; };
 		4891E1CD179728BF00BED9F7 /* libopusfile.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 48AE54C817972447008E11FB /* libopusfile.dylib */; };
 		48AE54C917972447008E11FB /* libopus.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 48AE54C717972447008E11FB /* libopus.dylib */; };
 		48AE54CA17972447008E11FB /* libopusfile.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 48AE54C817972447008E11FB /* libopusfile.dylib */; };
 		48E2EC7D15FB507A00B8D476 /* libmad.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 48E2EC7915FB507A00B8D476 /* libmad.dylib */; };
-		48E2EC7F15FB507A00B8D476 /* libvorbis.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 48E2EC7B15FB507A00B8D476 /* libvorbis.dylib */; };
-		48E2EC8015FB507A00B8D476 /* libvorbisfile.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 48E2EC7C15FB507A00B8D476 /* libvorbisfile.dylib */; };
 		63CA72B51963FA58005A8397 /* libFLAC.dylib in Copy Libraries */ = {isa = PBXBuildFile; fileRef = 48281302179C401D004E1D61 /* libFLAC.dylib */; };
 		63CA72B61963FA70005A8397 /* libmad.dylib in Copy Libraries */ = {isa = PBXBuildFile; fileRef = 48E2EC7915FB507A00B8D476 /* libmad.dylib */; };
 		63CA72B71963FA7F005A8397 /* libmikmod.dylib in Copy Libraries */ = {isa = PBXBuildFile; fileRef = F5F5DE80017CB4370103A810 /* libmikmod.dylib */; };
 		63CA72B81963FABC005A8397 /* libopus.dylib in Copy Libraries */ = {isa = PBXBuildFile; fileRef = 48AE54C717972447008E11FB /* libopus.dylib */; };
 		63CA72B91963FAC9005A8397 /* libopusfile.dylib in Copy Libraries */ = {isa = PBXBuildFile; fileRef = 48AE54C817972447008E11FB /* libopusfile.dylib */; };
-		63CA72BA1963FADC005A8397 /* libvorbis.dylib in Copy Libraries */ = {isa = PBXBuildFile; fileRef = 48E2EC7B15FB507A00B8D476 /* libvorbis.dylib */; };
-		63CA72BB1963FAE8005A8397 /* libvorbisfile.dylib in Copy Libraries */ = {isa = PBXBuildFile; fileRef = 48E2EC7C15FB507A00B8D476 /* libvorbisfile.dylib */; };
-		63CA72C01963FBDD005A8397 /* libvorbis.dylib in Copy Libraries */ = {isa = PBXBuildFile; fileRef = 48E2EC7B15FB507A00B8D476 /* libvorbis.dylib */; };
 		63CA72C11963FC09005A8397 /* libmad.dylib in Copy Libraries */ = {isa = PBXBuildFile; fileRef = 48E2EC7915FB507A00B8D476 /* libmad.dylib */; };
 		63CA72C21963FC28005A8397 /* libopus.dylib in Copy Libraries */ = {isa = PBXBuildFile; fileRef = 48AE54C717972447008E11FB /* libopus.dylib */; };
 		63CA72C31963FC33005A8397 /* libopusfile.dylib in Copy Libraries */ = {isa = PBXBuildFile; fileRef = 48AE54C817972447008E11FB /* libopusfile.dylib */; };
 		63CA72C41963FC48005A8397 /* libFLAC.dylib in Copy Libraries */ = {isa = PBXBuildFile; fileRef = 48281302179C401D004E1D61 /* libFLAC.dylib */; };
 		63CA72C51963FC5A005A8397 /* libmikmod.dylib in Copy Libraries */ = {isa = PBXBuildFile; fileRef = F5F5DE80017CB4370103A810 /* libmikmod.dylib */; };
-		63CA72C61963FC75005A8397 /* libvorbisfile.dylib in Copy Libraries */ = {isa = PBXBuildFile; fileRef = 48E2EC7C15FB507A00B8D476 /* libvorbisfile.dylib */; };
 		70158BFE0AAF3C8800F6437C /* d_edge.c in Sources */ = {isa = PBXBuildFile; fileRef = 70158B710AAF3B3600F6437C /* d_edge.c */; };
 		70158BFF0AAF3C8800F6437C /* d_fill.c in Sources */ = {isa = PBXBuildFile; fileRef = 70158B720AAF3B3600F6437C /* d_fill.c */; };
 		70158C000AAF3C8800F6437C /* d_init.c in Sources */ = {isa = PBXBuildFile; fileRef = 70158B740AAF3B3600F6437C /* d_init.c */; };
@@ -218,6 +210,10 @@
 		8A13882E1E0576DB008FCA18 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A1387701E0576AA008FCA18 /* Carbon.framework */; };
 		8A13884B1E057859008FCA18 /* libogg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A1388371E057841008FCA18 /* libogg.a */; };
 		8A13884C1E057873008FCA18 /* libogg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A1388371E057841008FCA18 /* libogg.a */; };
+		8A1388581E057AC8008FCA18 /* libvorbis.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A1388561E057AB7008FCA18 /* libvorbis.a */; };
+		8A1388591E057AC8008FCA18 /* libvorbisfile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A1388571E057AB7008FCA18 /* libvorbisfile.a */; };
+		8A13885A1E057AD8008FCA18 /* libvorbis.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A1388561E057AB7008FCA18 /* libvorbis.a */; };
+		8A13885B1E057AD8008FCA18 /* libvorbisfile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A1388571E057AB7008FCA18 /* libvorbisfile.a */; };
 		A4E3AF2A05D43FCC000F1B47 /* libmikmod.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F5F5DE80017CB4370103A810 /* libmikmod.dylib */; };
 		A4E3AF6205D43FCC000F1B47 /* libmikmod.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F5F5DE80017CB4370103A810 /* libmikmod.dylib */; };
 		B0E546A615564FC10033037D /* sys_osx.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E546A515564FC10033037D /* sys_osx.m */; };
@@ -246,8 +242,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 6;
 			files = (
-				63CA72BA1963FADC005A8397 /* libvorbis.dylib in Copy Libraries */,
-				63CA72BB1963FAE8005A8397 /* libvorbisfile.dylib in Copy Libraries */,
 				63CA72B61963FA70005A8397 /* libmad.dylib in Copy Libraries */,
 				63CA72B81963FABC005A8397 /* libopus.dylib in Copy Libraries */,
 				63CA72B91963FAC9005A8397 /* libopusfile.dylib in Copy Libraries */,
@@ -263,8 +257,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 6;
 			files = (
-				63CA72C01963FBDD005A8397 /* libvorbis.dylib in Copy Libraries */,
-				63CA72C61963FC75005A8397 /* libvorbisfile.dylib in Copy Libraries */,
 				63CA72C11963FC09005A8397 /* libmad.dylib in Copy Libraries */,
 				63CA72C21963FC28005A8397 /* libopus.dylib in Copy Libraries */,
 				63CA72C31963FC33005A8397 /* libopusfile.dylib in Copy Libraries */,
@@ -287,8 +279,6 @@
 		48AE54C717972447008E11FB /* libopus.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopus.dylib; path = ../../../oslibs/macosx/codecs/lib/libopus.dylib; sourceTree = "<group>"; };
 		48AE54C817972447008E11FB /* libopusfile.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopusfile.dylib; path = ../../../oslibs/macosx/codecs/lib/libopusfile.dylib; sourceTree = "<group>"; };
 		48E2EC7915FB507A00B8D476 /* libmad.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmad.dylib; path = ../../../oslibs/macosx/codecs/lib/libmad.dylib; sourceTree = "<group>"; };
-		48E2EC7B15FB507A00B8D476 /* libvorbis.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libvorbis.dylib; path = ../../../oslibs/macosx/codecs/lib/libvorbis.dylib; sourceTree = "<group>"; };
-		48E2EC7C15FB507A00B8D476 /* libvorbisfile.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libvorbisfile.dylib; path = ../../../oslibs/macosx/codecs/lib/libvorbisfile.dylib; sourceTree = "<group>"; };
 		70158B710AAF3B3600F6437C /* d_edge.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = d_edge.c; sourceTree = "<group>"; };
 		70158B720AAF3B3600F6437C /* d_fill.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = d_fill.c; sourceTree = "<group>"; };
 		70158B730AAF3B3600F6437C /* d_iface.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = d_iface.h; sourceTree = "<group>"; };
@@ -461,6 +451,8 @@
 		8A1386CF1E057503008FCA18 /* libSDL.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSDL.a; path = ../../../oslibs/macosx/lib/libSDL.a; sourceTree = SOURCE_ROOT; };
 		8A1387701E0576AA008FCA18 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
 		8A1388371E057841008FCA18 /* libogg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libogg.a; sourceTree = "<group>"; };
+		8A1388561E057AB7008FCA18 /* libvorbis.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libvorbis.a; sourceTree = "<group>"; };
+		8A1388571E057AB7008FCA18 /* libvorbisfile.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libvorbisfile.a; sourceTree = "<group>"; };
 		B0E546A515564FC10033037D /* sys_osx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sys_osx.m; sourceTree = "<group>"; };
 		B0E74B1D144E7FF40043F808 /* qsnprint.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = qsnprint.c; path = ../../../common/qsnprint.c; sourceTree = SOURCE_ROOT; };
 		B0E74B22144E80170043F808 /* strlcat.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = strlcat.c; path = ../../../common/strlcat.c; sourceTree = SOURCE_ROOT; };
@@ -489,11 +481,11 @@
 				48281304179C4034004E1D61 /* libFLAC.dylib in Frameworks */,
 				4854B1AF1340C5FD004C9F45 /* libmad.dylib in Frameworks */,
 				8A13884C1E057873008FCA18 /* libogg.a in Frameworks */,
-				4854B1E81340C964004C9F45 /* libvorbis.dylib in Frameworks */,
-				4854B1E91340C964004C9F45 /* libvorbisfile.dylib in Frameworks */,
 				4891E1CC179728BF00BED9F7 /* libopus.dylib in Frameworks */,
 				4891E1CD179728BF00BED9F7 /* libopusfile.dylib in Frameworks */,
 				A4E3AF2A05D43FCC000F1B47 /* libmikmod.dylib in Frameworks */,
+				8A13885A1E057AD8008FCA18 /* libvorbis.a in Frameworks */,
+				8A13885B1E057AD8008FCA18 /* libvorbisfile.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,11 +505,11 @@
 				48281303179C401D004E1D61 /* libFLAC.dylib in Frameworks */,
 				48E2EC7D15FB507A00B8D476 /* libmad.dylib in Frameworks */,
 				8A13884B1E057859008FCA18 /* libogg.a in Frameworks */,
-				48E2EC7F15FB507A00B8D476 /* libvorbis.dylib in Frameworks */,
-				48E2EC8015FB507A00B8D476 /* libvorbisfile.dylib in Frameworks */,
 				48AE54C917972447008E11FB /* libopus.dylib in Frameworks */,
 				48AE54CA17972447008E11FB /* libopusfile.dylib in Frameworks */,
 				A4E3AF6205D43FCC000F1B47 /* libmikmod.dylib in Frameworks */,
+				8A1388581E057AC8008FCA18 /* libvorbis.a in Frameworks */,
+				8A1388591E057AC8008FCA18 /* libvorbisfile.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -570,8 +562,8 @@
 				8A1388371E057841008FCA18 /* libogg.a */,
 				48AE54C717972447008E11FB /* libopus.dylib */,
 				48AE54C817972447008E11FB /* libopusfile.dylib */,
-				48E2EC7B15FB507A00B8D476 /* libvorbis.dylib */,
-				48E2EC7C15FB507A00B8D476 /* libvorbisfile.dylib */,
+				8A1388561E057AB7008FCA18 /* libvorbis.a */,
+				8A1388571E057AB7008FCA18 /* libvorbisfile.a */,
 			);
 			name = Dependencies;
 			path = ../../../oslibs/macosx/lib;
