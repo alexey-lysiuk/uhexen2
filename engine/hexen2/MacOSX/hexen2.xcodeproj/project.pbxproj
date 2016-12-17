@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		32CA4F630368D1EE00C91783 /* snd_umx.c in Sources */ = {isa = PBXBuildFile; fileRef = 4818B0B012D5BA1A006DD66E /* snd_umx.c */; };
 		4818B0B612D5BA1A006DD66E /* snd_umx.c in Sources */ = {isa = PBXBuildFile; fileRef = 4818B0B012D5BA1A006DD66E /* snd_umx.c */; };
-		48281303179C401D004E1D61 /* libFLAC.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 48281302179C401D004E1D61 /* libFLAC.dylib */; };
-		48281304179C4034004E1D61 /* libFLAC.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 48281302179C401D004E1D61 /* libFLAC.dylib */; };
 		48281307179C4055004E1D61 /* snd_flac.c in Sources */ = {isa = PBXBuildFile; fileRef = 48281305179C4055004E1D61 /* snd_flac.c */; };
 		48281308179C4055004E1D61 /* snd_flac.c in Sources */ = {isa = PBXBuildFile; fileRef = 48281305179C4055004E1D61 /* snd_flac.c */; };
 		48305B530D8AF8EC00A29C24 /* snd_mikmod.c in Sources */ = {isa = PBXBuildFile; fileRef = 483A78640D2EEAF000CB2E4C /* snd_mikmod.c */; };
@@ -22,7 +20,6 @@
 		48AE54C917972447008E11FB /* libopus.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 48AE54C717972447008E11FB /* libopus.dylib */; };
 		48AE54CA17972447008E11FB /* libopusfile.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 48AE54C817972447008E11FB /* libopusfile.dylib */; };
 		48E2EC7D15FB507A00B8D476 /* libmad.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 48E2EC7915FB507A00B8D476 /* libmad.dylib */; };
-		63CA72B51963FA58005A8397 /* libFLAC.dylib in Copy Libraries */ = {isa = PBXBuildFile; fileRef = 48281302179C401D004E1D61 /* libFLAC.dylib */; };
 		63CA72B61963FA70005A8397 /* libmad.dylib in Copy Libraries */ = {isa = PBXBuildFile; fileRef = 48E2EC7915FB507A00B8D476 /* libmad.dylib */; };
 		63CA72B71963FA7F005A8397 /* libmikmod.dylib in Copy Libraries */ = {isa = PBXBuildFile; fileRef = F5F5DE80017CB4370103A810 /* libmikmod.dylib */; };
 		63CA72B81963FABC005A8397 /* libopus.dylib in Copy Libraries */ = {isa = PBXBuildFile; fileRef = 48AE54C717972447008E11FB /* libopus.dylib */; };
@@ -30,7 +27,6 @@
 		63CA72C11963FC09005A8397 /* libmad.dylib in Copy Libraries */ = {isa = PBXBuildFile; fileRef = 48E2EC7915FB507A00B8D476 /* libmad.dylib */; };
 		63CA72C21963FC28005A8397 /* libopus.dylib in Copy Libraries */ = {isa = PBXBuildFile; fileRef = 48AE54C717972447008E11FB /* libopus.dylib */; };
 		63CA72C31963FC33005A8397 /* libopusfile.dylib in Copy Libraries */ = {isa = PBXBuildFile; fileRef = 48AE54C817972447008E11FB /* libopusfile.dylib */; };
-		63CA72C41963FC48005A8397 /* libFLAC.dylib in Copy Libraries */ = {isa = PBXBuildFile; fileRef = 48281302179C401D004E1D61 /* libFLAC.dylib */; };
 		63CA72C51963FC5A005A8397 /* libmikmod.dylib in Copy Libraries */ = {isa = PBXBuildFile; fileRef = F5F5DE80017CB4370103A810 /* libmikmod.dylib */; };
 		70158BFE0AAF3C8800F6437C /* d_edge.c in Sources */ = {isa = PBXBuildFile; fileRef = 70158B710AAF3B3600F6437C /* d_edge.c */; };
 		70158BFF0AAF3C8800F6437C /* d_fill.c in Sources */ = {isa = PBXBuildFile; fileRef = 70158B720AAF3B3600F6437C /* d_fill.c */; };
@@ -214,6 +210,8 @@
 		8A1388591E057AC8008FCA18 /* libvorbisfile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A1388571E057AB7008FCA18 /* libvorbisfile.a */; };
 		8A13885A1E057AD8008FCA18 /* libvorbis.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A1388561E057AB7008FCA18 /* libvorbis.a */; };
 		8A13885B1E057AD8008FCA18 /* libvorbisfile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A1388571E057AB7008FCA18 /* libvorbisfile.a */; };
+		8A13886E1E057BAD008FCA18 /* libFLAC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A13886D1E057B9C008FCA18 /* libFLAC.a */; };
+		8A13886F1E057BB6008FCA18 /* libFLAC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A13886D1E057B9C008FCA18 /* libFLAC.a */; };
 		A4E3AF2A05D43FCC000F1B47 /* libmikmod.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F5F5DE80017CB4370103A810 /* libmikmod.dylib */; };
 		A4E3AF6205D43FCC000F1B47 /* libmikmod.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F5F5DE80017CB4370103A810 /* libmikmod.dylib */; };
 		B0E546A615564FC10033037D /* sys_osx.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E546A515564FC10033037D /* sys_osx.m */; };
@@ -245,7 +243,6 @@
 				63CA72B61963FA70005A8397 /* libmad.dylib in Copy Libraries */,
 				63CA72B81963FABC005A8397 /* libopus.dylib in Copy Libraries */,
 				63CA72B91963FAC9005A8397 /* libopusfile.dylib in Copy Libraries */,
-				63CA72B51963FA58005A8397 /* libFLAC.dylib in Copy Libraries */,
 				63CA72B71963FA7F005A8397 /* libmikmod.dylib in Copy Libraries */,
 			);
 			name = "Copy Libraries";
@@ -260,7 +257,6 @@
 				63CA72C11963FC09005A8397 /* libmad.dylib in Copy Libraries */,
 				63CA72C21963FC28005A8397 /* libopus.dylib in Copy Libraries */,
 				63CA72C31963FC33005A8397 /* libopusfile.dylib in Copy Libraries */,
-				63CA72C41963FC48005A8397 /* libFLAC.dylib in Copy Libraries */,
 				63CA72C51963FC5A005A8397 /* libmikmod.dylib in Copy Libraries */,
 			);
 			name = "Copy Libraries";
@@ -270,7 +266,6 @@
 
 /* Begin PBXFileReference section */
 		4818B0B012D5BA1A006DD66E /* snd_umx.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = snd_umx.c; sourceTree = "<group>"; };
-		48281302179C401D004E1D61 /* libFLAC.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libFLAC.dylib; path = ../../../oslibs/macosx/codecs/lib/libFLAC.dylib; sourceTree = "<group>"; };
 		48281305179C4055004E1D61 /* snd_flac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = snd_flac.c; sourceTree = "<group>"; };
 		48281306179C4055004E1D61 /* snd_flac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = snd_flac.h; sourceTree = "<group>"; };
 		483A78640D2EEAF000CB2E4C /* snd_mikmod.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = snd_mikmod.c; sourceTree = "<group>"; };
@@ -453,6 +448,7 @@
 		8A1388371E057841008FCA18 /* libogg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libogg.a; sourceTree = "<group>"; };
 		8A1388561E057AB7008FCA18 /* libvorbis.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libvorbis.a; sourceTree = "<group>"; };
 		8A1388571E057AB7008FCA18 /* libvorbisfile.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libvorbisfile.a; sourceTree = "<group>"; };
+		8A13886D1E057B9C008FCA18 /* libFLAC.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFLAC.a; sourceTree = "<group>"; };
 		B0E546A515564FC10033037D /* sys_osx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sys_osx.m; sourceTree = "<group>"; };
 		B0E74B1D144E7FF40043F808 /* qsnprint.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = qsnprint.c; path = ../../../common/qsnprint.c; sourceTree = SOURCE_ROOT; };
 		B0E74B22144E80170043F808 /* strlcat.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = strlcat.c; path = ../../../common/strlcat.c; sourceTree = SOURCE_ROOT; };
@@ -478,7 +474,7 @@
 				70158C8C0AAF421B00F6437C /* IOKit.framework in Frameworks */,
 				70158C8D0AAF421B00F6437C /* OpenGL.framework in Frameworks */,
 				8A1386D11E05757A008FCA18 /* libSDL.a in Frameworks */,
-				48281304179C4034004E1D61 /* libFLAC.dylib in Frameworks */,
+				8A13886F1E057BB6008FCA18 /* libFLAC.a in Frameworks */,
 				4854B1AF1340C5FD004C9F45 /* libmad.dylib in Frameworks */,
 				8A13884C1E057873008FCA18 /* libogg.a in Frameworks */,
 				4891E1CC179728BF00BED9F7 /* libopus.dylib in Frameworks */,
@@ -502,7 +498,7 @@
 				707D59310AAA076A00313A9F /* IOKit.framework in Frameworks */,
 				707D59320AAA076A00313A9F /* OpenGL.framework in Frameworks */,
 				8A1386D01E05756D008FCA18 /* libSDL.a in Frameworks */,
-				48281303179C401D004E1D61 /* libFLAC.dylib in Frameworks */,
+				8A13886E1E057BAD008FCA18 /* libFLAC.a in Frameworks */,
 				48E2EC7D15FB507A00B8D476 /* libmad.dylib in Frameworks */,
 				8A13884B1E057859008FCA18 /* libogg.a in Frameworks */,
 				48AE54C917972447008E11FB /* libopus.dylib in Frameworks */,
@@ -556,7 +552,7 @@
 				707D59290AAA076A00313A9F /* IOKit.framework */,
 				707D592A0AAA076A00313A9F /* OpenGL.framework */,
 				8A1386CF1E057503008FCA18 /* libSDL.a */,
-				48281302179C401D004E1D61 /* libFLAC.dylib */,
+				8A13886D1E057B9C008FCA18 /* libFLAC.a */,
 				48E2EC7915FB507A00B8D476 /* libmad.dylib */,
 				F5F5DE80017CB4370103A810 /* libmikmod.dylib */,
 				8A1388371E057841008FCA18 /* libogg.a */,
