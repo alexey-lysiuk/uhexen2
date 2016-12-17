@@ -1024,10 +1024,8 @@
 		70158C500AAF3C8800F6437C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INFOPLIST_FILE = hexen2.plist;
 				PRODUCT_NAME = Hexen_II;
 				WRAPPER_EXTENSION = app;
@@ -1037,10 +1035,8 @@
 		70158C510AAF3C8800F6437C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INFOPLIST_FILE = hexen2.plist;
 				PRODUCT_NAME = Hexen_II;
 				WRAPPER_EXTENSION = app;
@@ -1067,14 +1063,9 @@
 					../../h2shared,
 					../../../common,
 					../../../oslibs/macosx/include,
-					../../../oslibs/macosx/codecs/include,
 				);
-				LIBRARY_SEARCH_PATHS = (
-					../../../oslibs/macosx/lib,
-					../../../oslibs/macosx/codecs/lib,
-				);
+				LIBRARY_SEARCH_PATHS = ../../../oslibs/macosx/lib;
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_LDFLAGS = "";
 			};
 			name = Debug;
 		};
@@ -1098,20 +1089,14 @@
 					../../h2shared,
 					../../../common,
 					../../../oslibs/macosx/include,
-					../../../oslibs/macosx/codecs/include,
 				);
-				LIBRARY_SEARCH_PATHS = (
-					../../../oslibs/macosx/lib,
-					../../../oslibs/macosx/codecs/lib,
-				);
-				OTHER_LDFLAGS = "";
+				LIBRARY_SEARCH_PATHS = ../../../oslibs/macosx/lib;
 			};
 			name = Release;
 		};
 		707D58E70AA9FBB700313A9F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1119,7 +1104,6 @@
 					GLQUAKE,
 					GL_DLSYM,
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INFOPLIST_FILE = glhexen2.plist;
 				PRODUCT_NAME = "Hexen_II-gl";
 				WRAPPER_EXTENSION = app;
@@ -1129,7 +1113,6 @@
 		707D58E80AA9FBB700313A9F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1137,7 +1120,6 @@
 					GLQUAKE,
 					GL_DLSYM,
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INFOPLIST_FILE = glhexen2.plist;
 				PRODUCT_NAME = "Hexen_II-gl";
 				WRAPPER_EXTENSION = app;
