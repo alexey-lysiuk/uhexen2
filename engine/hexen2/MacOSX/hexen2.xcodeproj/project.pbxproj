@@ -953,6 +953,8 @@
 /* Begin PBXProject section */
 		707D575A0AA9F4B100313A9F /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = 707D575B0AA9F4B100313A9F /* Build configuration list for PBXProject "hexen2" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -1211,11 +1213,6 @@
 		70158C500AAF3C8800F6437C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					x86_64,
-					i386,
-					ppc,
-				);
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
@@ -1235,7 +1232,6 @@
 					_THREAD_SAFE,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_VERSION = "";
 				HEADER_SEARCH_PATHS = (
 					../../h2shared,
 					../../../common,
@@ -1245,33 +1241,10 @@
 				LIBRARY_SEARCH_PATHS = ../../../oslibs/macosx/codecs/lib;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				"MACOSX_DEPLOYMENT_TARGET[arch=i386]" = 10.4;
-				"MACOSX_DEPLOYMENT_TARGET[arch=ppc]" = 10.4;
 				"MACOSX_DEPLOYMENT_TARGET[arch=x86_64]" = 10.6;
-				OTHER_CFLAGS = "";
-				"OTHER_CFLAGS[arch=i386]" = (
-					"-arch",
-					i386,
-				);
-				"OTHER_CFLAGS[arch=ppc]" = (
-					"-arch",
-					ppc,
-				);
-				OTHER_LDFLAGS = "";
-				"OTHER_LDFLAGS[arch=i386]" = (
-					"-arch",
-					i386,
-				);
-				"OTHER_LDFLAGS[arch=ppc]" = (
-					"-arch",
-					ppc,
-				);
 				OTHER_REZFLAGS = "";
 				PREBINDING = NO;
 				PRODUCT_NAME = Hexen_II;
-				SDKROOT = macosx10.6;
-				"SDKROOT[arch=i386]" = macosx10.5;
-				"SDKROOT[arch=ppc]" = macosx10.5;
-				"SDKROOT[arch=x86_64]" = macosx10.6;
 				SECTORDER_FLAGS = "";
 				STRIP_INSTALLED_PRODUCT = YES;
 				WARNING_CFLAGS = (
@@ -1286,11 +1259,6 @@
 		70158C510AAF3C8800F6437C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					x86_64,
-					i386,
-					ppc,
-				);
 				COPY_PHASE_STRIP = YES;
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
@@ -1310,7 +1278,6 @@
 					_THREAD_SAFE,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_VERSION = "";
 				HEADER_SEARCH_PATHS = (
 					../../h2shared,
 					../../../common,
@@ -1320,33 +1287,10 @@
 				LIBRARY_SEARCH_PATHS = ../../../oslibs/macosx/codecs/lib;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				"MACOSX_DEPLOYMENT_TARGET[arch=i386]" = 10.4;
-				"MACOSX_DEPLOYMENT_TARGET[arch=ppc]" = 10.4;
 				"MACOSX_DEPLOYMENT_TARGET[arch=x86_64]" = 10.6;
-				OTHER_CFLAGS = "";
-				"OTHER_CFLAGS[arch=i386]" = (
-					"-arch",
-					i386,
-				);
-				"OTHER_CFLAGS[arch=ppc]" = (
-					"-arch",
-					ppc,
-				);
-				OTHER_LDFLAGS = "";
-				"OTHER_LDFLAGS[arch=i386]" = (
-					"-arch",
-					i386,
-				);
-				"OTHER_LDFLAGS[arch=ppc]" = (
-					"-arch",
-					ppc,
-				);
 				OTHER_REZFLAGS = "";
 				PREBINDING = NO;
 				PRODUCT_NAME = Hexen_II;
-				SDKROOT = macosx10.6;
-				"SDKROOT[arch=i386]" = macosx10.5;
-				"SDKROOT[arch=ppc]" = macosx10.5;
-				"SDKROOT[arch=x86_64]" = macosx10.6;
 				SECTORDER_FLAGS = "";
 				STRIP_INSTALLED_PRODUCT = YES;
 				WARNING_CFLAGS = (
@@ -1362,12 +1306,7 @@
 		707D575C0AA9F4B100313A9F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					x86_64,
-					i386,
-					ppc,
-				);
-				COPY_PHASE_STRIP = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				FRAMEWORK_SEARCH_PATHS = (
 					../../../oslibs/macosx,
 					"$(FRAMEWORK_SEARCH_PATHS)",
@@ -1393,20 +1332,15 @@
 					../../../oslibs/macosx/codecs/include,
 				);
 				LIBRARY_SEARCH_PATHS = ../../../oslibs/macosx/codecs/lib;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "";
-				SDKROOT = macosx10.6;
 			};
 			name = Debug;
 		};
 		707D575D0AA9F4B100313A9F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					x86_64,
-					i386,
-					ppc,
-				);
-				COPY_PHASE_STRIP = YES;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				FRAMEWORK_SEARCH_PATHS = (
 					../../../oslibs/macosx,
 					"$(FRAMEWORK_SEARCH_PATHS)",
@@ -1433,26 +1367,18 @@
 				);
 				LIBRARY_SEARCH_PATHS = ../../../oslibs/macosx/codecs/lib;
 				OTHER_LDFLAGS = "";
-				SDKROOT = macosx10.6;
 			};
 			name = Release;
 		};
 		707D58E70AA9FBB700313A9F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					x86_64,
-					i386,
-					ppc,
-				);
-				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					../../../oslibs/macosx,
 					"$(FRAMEWORK_SEARCH_PATHS)",
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_MODEL_TUNING = G3;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					USE_CODEC_MP3,
@@ -1470,7 +1396,6 @@
 					_THREAD_SAFE,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_VERSION = "";
 				HEADER_SEARCH_PATHS = (
 					../../h2shared,
 					../../../common,
@@ -1480,43 +1405,9 @@
 				LIBRARY_SEARCH_PATHS = ../../../oslibs/macosx/codecs/lib;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				"MACOSX_DEPLOYMENT_TARGET[arch=i386]" = 10.4;
-				"MACOSX_DEPLOYMENT_TARGET[arch=ppc]" = 10.4;
 				"MACOSX_DEPLOYMENT_TARGET[arch=x86_64]" = 10.6;
-				OTHER_CFLAGS = "";
-				"OTHER_CFLAGS[arch=i386]" = (
-					"-arch",
-					i386,
-				);
-				"OTHER_CFLAGS[arch=ppc]" = (
-					"-arch",
-					ppc,
-				);
-				"OTHER_CFLAGS[arch=x86_64]" = (
-					"-arch",
-					x86_64,
-				);
-				OTHER_LDFLAGS = "";
-				"OTHER_LDFLAGS[arch=i386]" = (
-					"-arch",
-					i386,
-				);
-				"OTHER_LDFLAGS[arch=ppc]" = (
-					"-arch",
-					ppc,
-				);
-				"OTHER_LDFLAGS[arch=x86_64]" = (
-					"-arch",
-					x86_64,
-				);
-				OTHER_REZFLAGS = "";
-				PREBINDING = NO;
 				PRODUCT_NAME = "Hexen_II-gl";
-				SDKROOT = macosx10.6;
-				"SDKROOT[arch=i386]" = macosx10.5;
-				"SDKROOT[arch=ppc]" = macosx10.5;
-				"SDKROOT[arch=x86_64]" = macosx10.6;
 				SECTORDER_FLAGS = "";
-				STRIP_INSTALLED_PRODUCT = YES;
 				WARNING_CFLAGS = (
 					"-Wmost",
 					"-Wno-four-char-constants",
@@ -1529,19 +1420,12 @@
 		707D58E80AA9FBB700313A9F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					x86_64,
-					i386,
-					ppc,
-				);
-				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					../../../oslibs/macosx,
 					"$(FRAMEWORK_SEARCH_PATHS)",
 				);
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_MODEL_TUNING = G3;
 				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					USE_CODEC_MP3,
@@ -1559,7 +1443,6 @@
 					_THREAD_SAFE,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_VERSION = "";
 				HEADER_SEARCH_PATHS = (
 					../../h2shared,
 					../../../common,
@@ -1569,50 +1452,15 @@
 				LIBRARY_SEARCH_PATHS = ../../../oslibs/macosx/codecs/lib;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				"MACOSX_DEPLOYMENT_TARGET[arch=i386]" = 10.4;
-				"MACOSX_DEPLOYMENT_TARGET[arch=ppc]" = 10.4;
 				"MACOSX_DEPLOYMENT_TARGET[arch=x86_64]" = 10.6;
-				OTHER_CFLAGS = "";
-				"OTHER_CFLAGS[arch=i386]" = (
-					"-arch",
-					i386,
-				);
-				"OTHER_CFLAGS[arch=ppc]" = (
-					"-arch",
-					ppc,
-				);
-				"OTHER_CFLAGS[arch=x86_64]" = (
-					"-arch",
-					x86_64,
-				);
-				OTHER_LDFLAGS = "";
-				"OTHER_LDFLAGS[arch=i386]" = (
-					"-arch",
-					i386,
-				);
-				"OTHER_LDFLAGS[arch=ppc]" = (
-					"-arch",
-					ppc,
-				);
-				"OTHER_LDFLAGS[arch=x86_64]" = (
-					"-arch",
-					x86_64,
-				);
-				OTHER_REZFLAGS = "";
-				PREBINDING = NO;
 				PRODUCT_NAME = "Hexen_II-gl";
-				SDKROOT = macosx10.6;
-				"SDKROOT[arch=i386]" = macosx10.5;
-				"SDKROOT[arch=ppc]" = macosx10.5;
-				"SDKROOT[arch=x86_64]" = macosx10.6;
 				SECTORDER_FLAGS = "";
-				STRIP_INSTALLED_PRODUCT = YES;
 				WARNING_CFLAGS = (
 					"-Wmost",
 					"-Wno-four-char-constants",
 					"-Wno-unknown-pragmas",
 				);
 				WRAPPER_EXTENSION = app;
-				ZERO_LINK = NO;
 			};
 			name = Release;
 		};
